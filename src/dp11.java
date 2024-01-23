@@ -7,6 +7,10 @@ public class dp11 {
         int[] value = {15, 20, 30};
         int bagSize = 4;
 
+        erweidp(weight, value, bagSize);
+    }
+
+    private static void erweidp(int[] weight, int[] value, int bagSize) {
         // 初始化数组
         int[][] dp = new int[weight.length + 1][bagSize + 1];
 

@@ -1,5 +1,7 @@
 package offer;
 
+import structure.ListNode;
+
 import java.util.Stack;
 
 /**

@@ -1,4 +1,4 @@
-package offer;
+package structure;
 
 public class ListNode<T> {
     public T val;

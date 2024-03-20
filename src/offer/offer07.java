@@ -21,24 +21,8 @@ public class offer07 {
         root.right.left = new TreeNode<>(3);
 
         List<Integer> res = new ArrayList<>();
-        preorderRecursively(root, res);
-        System.out.println("pre:" + res);
-        res.clear();
-        inorderRecursively(root, res);
-        System.out.println("in:" + res);
-        res.clear();
-        postorderRecursively(root, res);
-        System.out.println("post:" + res);
-        res.clear();
-        preorderIteratively(root, res);
-        System.out.println("pre:" + res);
-        res.clear();
-        inorderIteratively(root, res);
-        System.out.println("in:" + res);
-        res.clear();
-        postorderIteratively(root, res);
-        System.out.println("post:" + res);
-        res.clear();
+
+        show(root, res);
 
         //            5
         //          /   \
@@ -52,6 +36,10 @@ public class offer07 {
         root.left.left = new TreeNode<>(2);
         root.left.right = new TreeNode<>(1);
 
+        show(root, res);
+    }
+
+    public static void show(TreeNode<Integer> root, List<Integer> res) {
         preorderRecursively(root, res);
         System.out.println("pre:" + res);
         res.clear();
@@ -69,6 +57,9 @@ public class offer07 {
         res.clear();
         postorderIteratively(root, res);
         System.out.println("post:" + res);
+        res.clear();
+        levelorder(root, res);
+        System.out.println("level:" + res);
         res.clear();
     }
 
@@ -162,6 +153,25 @@ public class offer07 {
                 cur = stack.pop();
                 res.add(cur.val);
                 cur = cur.right;
+            }
+        }
+    }
+
+    // 层序遍历二叉树 利用队列
+    public static void levelorder(TreeNode<Integer> node, List<Integer> res) {
+        if (node == null) {
+            return;
+        }
+        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        queue.add(node);
+        while (!queue.isEmpty()) {
+            TreeNode<Integer> cur = queue.poll();
+            res.add(cur.val);
+            if (cur.left != null) {
+                queue.offer(cur.left);
+            }
+            if (cur.right != null) {
+                queue.offer(cur.right);
             }
         }
     }

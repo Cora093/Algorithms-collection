@@ -1,4 +1,4 @@
-package dp;
+package suixianglu.dp;
 
 /**
  * 一维数组解01背包

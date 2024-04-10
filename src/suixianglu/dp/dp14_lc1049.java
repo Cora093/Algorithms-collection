@@ -1,4 +1,4 @@
-package dp;
+package suixianglu.dp;
 
 public class dp14_lc1049 {
     public static void main(String[] args) {

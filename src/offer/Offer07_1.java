@@ -8,7 +8,7 @@ import java.util.*;
  * 前中后序遍历二叉树（分别使用递归和非递归解法）
  * 层序遍历二叉树
  */
-public class offer07_1 {
+public class Offer07_1 {
     public static void main(String[] args) {
         //            1
         //              \

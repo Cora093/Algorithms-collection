@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * 从尾到头打印链表
  */
-public class offer06 {
+public class Offer06 {
     public static void main(String[] args) {
         ListNode<Integer> head = new ListNode<Integer>(1);
         head.next = new ListNode<Integer>(2);

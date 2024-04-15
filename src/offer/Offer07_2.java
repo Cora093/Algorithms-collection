@@ -5,9 +5,9 @@ import structure.TreeNode;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static offer.offer07_1.*;
+import static offer.Offer07_1.*;
 
-public class offer07_2 {
+public class Offer07_2 {
 
     public static void main(String[] args) {
         //            1

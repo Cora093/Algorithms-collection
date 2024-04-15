@@ -4,7 +4,7 @@ package offer;
  * 替换空格
  * 把传入字符数组中的' '换成'&20',且传入数组保证有足够空间容纳修改后的字符
  */
-public class offer05 {
+public class Offer05 {
     public static void main(String[] args) {
         String data = "We are happy.";
         System.out.println(data);

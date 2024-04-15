@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * 使用两个队列实现一个后入先出（LIFO）的栈
  */
-public class offer09_2 {
+public class Offer09_2 {
     public static void main(String[] args) {
         MyStack myStack = new MyStack();
         myStack.push(1);

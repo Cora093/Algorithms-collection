@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * 使用两个栈实现先入先出队列
  */
-public class offer09 {
+public class Offer09 {
     public static void main(String[] args) {
         MyQueue myQueue = new MyQueue();
         myQueue.push(1); // queue is: [1]

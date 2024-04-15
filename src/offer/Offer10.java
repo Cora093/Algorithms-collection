@@ -3,7 +3,7 @@ package offer;
 /**
  * 斐波那契数列
  */
-public class offer10 {
+public class Offer10 {
     public static void main(String[] args) {
         System.out.println(fib_01(3) + " " + fib_01(4) + " " + fib_01(5) + " " + fib_01(6) + " ");
         System.out.println(fib_02(3) + " " + fib_02(4) + " " + fib_02(5) + " " + fib_02(6) + " ");

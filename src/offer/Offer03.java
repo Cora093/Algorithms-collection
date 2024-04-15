@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 找出数组中重复的数字
  * 一个长度为n的数组，值的范围在0~n-1内，有一个或多个数字重复，求其中任意一个
  */
-public class offer03 {
+public class Offer03 {
 
     public static void main(String[] args) {
         int[] data = {2, 3, 1, 0, 2, 5, 3};

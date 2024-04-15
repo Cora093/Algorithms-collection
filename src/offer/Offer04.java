@@ -3,7 +3,7 @@ package offer;
 /**
  * 二维数组，从左到右递增，从上到下递增，输入一个整数，判断数组中是否含有
  */
-public class offer04 {
+public class Offer04 {
     public static void main(String[] args) {
         int[][] data = {{1, 2, 8, 9},
                 {2, 4, 9, 12},

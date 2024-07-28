@@ -9,6 +9,12 @@ public class ListNode<T> {
         this.next = null;
     }
 
+    public ListNode(T val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
+
     @Override
     public String toString() {
         StringBuilder ret = new StringBuilder();
